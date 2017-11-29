@@ -1,0 +1,24 @@
+1.- Crear carpeta para DB
+    C:\data
+    C:\data\db
+
+(Opcional) Crear las carpetas de almacenamiento en una ruta personalizada
+    C:\usuario\proyecto\data\db
+
+2.- Iniciar el servidor del servicio de MongoDB: mongod
+    C:\mongodb\bin\mongod.exe
+
+(Opcional) Si se usa una ruta personalizada se debe pasar un parametro
+    C:\mongodb\bin\mongod.exe --dbpath C:\usuario\proyecto\data\db
+
+3.- Iniciar el shell de mongo
+    C:\mongodb\bin\mongo.exe
+
+Para este proyecto ejecutar:
+
+	 C:/Program Files/MongoDB/Server/3.4/bin/mongod.exe --dbpath C:/Users/Dani/Repositorios/MiniSpotify/data/db
+
+Crear base de datos:
+	use nombre_db;
+
+
