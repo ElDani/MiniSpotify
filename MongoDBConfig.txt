@@ -18,7 +18,21 @@ Para este proyecto ejecutar:
 
 	 C:/Program Files/MongoDB/Server/3.4/bin/mongod.exe --dbpath C:/Users/Dani/Repositorios/MiniSpotify/data/db
 
-Crear base de datos:
+Crear o Usar base de datos:
 	use nombre_db;
+
+Ver todas las bases existentes
+	show dbs;
+
+Ver todas las colecciones de una base
+	show collections
+
+Insertar un dato en la coleccion
+	db.table.save({ dato: 'valor' });
+
+Select *
+	db.table.find();
+
+
 
 

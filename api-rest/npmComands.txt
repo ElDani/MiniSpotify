@@ -1,0 +1,15 @@
+- Inicia el asistente para creacion de proyecto de nodeJS
+	npm init
+
+- Inicializa el servidor con nodemon (package.json -> scripts -> "start": "nodemon index.js")
+	npm start
+
+- Instalar dependencias en el package.json
+	npm install _dependencia --save [-dev | -prod ]
+
+- Instalar dependencias especificas
+	npm install _dependencia@1.0.0 --save [-dev | -prod]
+
+- Desintalar dependencias
+	npm uninstall _dependencias --save
+
